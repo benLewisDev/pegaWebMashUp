@@ -11,12 +11,11 @@ body, html {
     color: #fff;
     display: flex;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 2%;
 
 
   }
 
-  .mashUp div {
-    display: flex;
-    align-items: center;
+  .mashUp {
+    padding: 100px;
   }
