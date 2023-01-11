@@ -18,4 +18,5 @@ body, html {
 
   .mashUp {
     padding: 100px;
+    overflow: hidden;
   }
