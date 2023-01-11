@@ -1,1 +1,12 @@
+body {
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
 
+h1 {
+    color: aliceblue;
+}
