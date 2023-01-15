@@ -12,12 +12,9 @@ body, html {
     display: flex;
     justify-content: center;
     padding-bottom: 7%;
-    border-color: #fff;
-    border-width: 5px;
   }
 
   #mashUp {
-    margin-left: 300px;
-    margin-right: 300px;
-    border-width: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
