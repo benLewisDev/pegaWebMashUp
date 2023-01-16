@@ -18,3 +18,14 @@ body, html {
     margin-left: 15%;
     margin-right: 15%;
   }
+
+  #signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #signUp p {
+    color: #fff;
+  }
