@@ -15,17 +15,18 @@ body, html {
   }
 
   #mashUp {
+    overflow: auto;
     margin-left: 15%;
     margin-right: 15%;
   }
 
-  #signUp {
+  #logOff {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  #signUp p {
+  #logOff p {
     color: #fff;
   }
