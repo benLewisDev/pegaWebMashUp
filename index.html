@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <!--This first script loads the gadget into the page-->
-  <script src='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script>
-  <script src ='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script>
   <title>Pega Web Mash Up</title>
 </head>
 
@@ -21,15 +19,21 @@
       document.getElementById("register").style.display = "block";
     }
     function hideMashup() {
-      document.getElementById('signIn').style.display = "none";
+      for (let element of document.getElementsByClassName("mashUp")){
+   element.style.display="none";
+    }
     }
     </script>
 
   <h1>Pega Web Mash Up Test</h1>
-<input type="button" name="Sign In" value="Sign In" onclick="showMashup1()"> 
-<input type="button" name="register" value="Register" onclick="showMashup2()"> 
+  <div id="mainButtons">
+<button onclick="showMashup1()">Sign In</button>
+<button onclick="showMashup2()">Register</button>
+  </div>
   <!-- ********************** Begin Sign In Mash Up ********************** -->
-  <div class = mashUp id="signIn" style="display: none;"
+  <script src='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script>
+
+  <div class = "mashUp" id="signIn" style="display: none;"
   data-pega-encrypted='true'
   data-pega-encrypted-hash='pzuiactionzzz=CXtpbn1qNWN2MHRBRFArcEt5dldFM1VFUythU3Fqb212UHd6MWZiUk5MSExhbG9sTkdPVFVv
                             dUg2d1V3ckcyNnRKckJ6clJxVFh3cXlkV1VzU1dTeS91MnNlM0tnNnllUWpGc0s4WThjdnlRZm1KdGtTZ05QWWpYNy82cUI5aytoUU50UFZ3TjEzb2Zs
@@ -37,53 +41,53 @@
                             3VqOXlRRDBROGltNTdPdHlTb1hJWmY5V2U4d0ticWtndWVlUk80dzhEdUpwdi9PbnBlK2dlRUNqRnJ4U1l6Q3JkUGg0b3ZtOU15bkF4UVVLQ25DNnl3blh
                             JekNBZmF6ZUI4ZEJYMVd2ZGtiaXQ5V2t1L3Z1T0E9PQ%3D%3D*'
     data-pega-gadgetname='signIn'
-    data-pega-action='createNewWork' 
+    data-pega-action='createNewWork'
     data-pega-action-param-classname='Gov-Border-Work-IPCTraveller'
-    data-pega-action-param-flowname='' 
-    data-pega-isretained='true' 
+    data-pega-action-param-flowname=''
+    data-pega-isretained='true'
     data-pega-isdeferloaded='false'
-    data-pega-applicationname='Border' 
+    data-pega-applicationname='Border'
     data-pega-threadname='bordertest'
-    data-pega-channelID='MASHUP4e7b72632c424a219eebfbfdab6df795' 
+    data-pega-channelID='MASHUP4e7b72632c424a219eebfbfdab6df795'
     data-pega-resizetype='stretch'
     data-pega-url='https://lsj2um9z.pegace.net/prweb'
     data-pega-action-param-parameters='{"pzSkinName":"Border","pyMashupSkeletonName":"pyDefaultMashupSkeleton"}'></div>
   <!-- ********************** End Sign In Mash Up ********************** -->
 
   <!-- ********************** Begin Register Mash Up ********************** -->
-<div class = mashUp id="register" style="display: none;"
-data-pega-encrypted = 'true' 
-data-pega-encrypted-hash = 'pzuiactionzzz=CXtpbn1qNWN2MHRBRFArcEt5dldFM1VFUythU3Fqb212UHd6MWZiUk5MSExhbG9sTkdPVFVvdUg2d1V3ckcyNnRKckJ6clJxVFh3cXlkV1VzU1dTeS91MnNlM0tnNnllUWpGc0s4WThjdnlRZm1KdGtTZ05QWWpYNy82cUI5aytoUU50UGxDaGV2Z2t1ZXRhc2cyTmVudENrMW9BUjE4Q2MweEVReGJ5cUs4VERzNlVyS1RIN01EeEpjdUREZkpGMGVtVXV5MU9ld3hwMWMrdzh0WGlRdDZ5QnczK0xnOW05OXc5ejVrdWV3b3QrQkVXQW5tQ0pRL1BZN01UNk1YR0tteFZtZnRIWklsM1lKVjdCNmEvRHFCcVMyckQ1cUdqRHQxZ0hQQUo0eHh6UjVPbTQ4emhsaG03a1lpVFdJeDhDYUdaNVJPZUU1MzA1OEVzc0ZGQ1NIMEh3eFluVUR2MWs0MkpTSnNZczlNbmRNK1U9*' 
-data-pega-gadgetname ='Register' 
-data-pega-action ='createNewWork' 
-data-pega-action-param-classname ='Gov-Border-Work-User-Registration' 
-data-pega-action-param-flowname ='pyStartCase' 
-data-pega-isretained ='true' 
-data-pega-isdeferloaded ='false' 
-data-pega-applicationname ='Border' 
-data-pega-threadname ='Register' 
-data-pega-channelID ='MASHUPfb88ccd93daf4154a224d59e7c6d6d19' 
-data-pega-resizetype ='stretch' 
-data-pega-url ='https://lsj2um9z.pegace.net/prweb' 
-data-pega-action-param-parameters ='{"pzSkinName":"Border","pyMashupSkeletonName":"pyDefaultMashupSkeleton"}' ></div>
-
-<!-- ********************** End Register Mash Up ********************** -->
-
-
+  <!-- <script src ='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script> -->
+  <div class = "mashUp" id="register" style="display: none;"
+  data-pega-encrypted='true'
+  data-pega-encrypted-hash='pzuiactionzzz=CXtpbn1qNWN2MHRBRFArcEt5dldFM1VFUythU3Fqb212UHd6MWZiUk5MSExhbG9sTkdPVFVvdUg2d1V3ckcyNnRKckJ6clJxVFh3cXlkV1VzU1dTeS91MnNlM0tnNnllUWpGc0s4WThjdnlRZm1KdGtTZ05QWWpYNy82cUI5aytoUU50UGxDaGV2Z2t1ZXRhc2cyTmVudENrMW9BUjE4Q2MweEVReGJ5cUs4VERzNlVyS1RIN01EeEpjdUREZkpGMGVtVXVaNWZxSnQ4V3FNNk8weWR1UlNEbXRQeUc4M0xNRkxicmpIeS9IKzhQaGdWLzBwM2Vlem9KOG01bGhuSFFGTC9OamJvQUd5OTV5UUFjc0FUYWVUTE5RMmR4U0Q4THVJSmthWW9nV3BBcjY0MzNEbk91Y0UxWFd5dnNWL0ZnazFxOUZ2a0dhaXRhZjZmV2sxTStaODZGdFN1ZnVDdnlZejRMMXc5TERCamZxalE9*'
+  data-pega-gadgetname='register'
+  data-pega-action='createNewWork'
+  data-pega-action-param-classname='Gov-Border-Work-User-Registration'
+  data-pega-action-param-flowname='pyStartCase'
+  data-pega-isretained='false'
+  data-pega-isdeferloaded='false'
+  data-pega-applicationname='Border'
+  data-pega-threadname='Rego'
+  data-pega-channelID='MASHUP8544608f69cd4b59ae888e631ba3f504'
+  data-pega-resizetype='stretch'
+  data-pega-url='https://lsj2um9z.pegace.net/prweb/app/border_8350/'
+  data-pega-action-param-parameters='{"pzSkinName":"Border","pyMashupSkeletonName":"pyDefaultMashupSkeleton"}'>
+</div>
+  <!-- ********************** End Register Mash Up ********************** -->
 
   <!-- This script logs directly into the border app using the included credentials -->
-  <script>
-    pega.web.api.setAuthenticationParameters("Register", {
-      UserIdentifier: "Mash",
-      Password: btoa("Rules@123")
-    });
-  </script>
+<script>
+ pega.web.api.setAuthenticationParameters('register', {
+    UserIdentifier: "Mash",
+    Password: btoa("Rules@123")
+  });
+</script>
 
   <div id='logOff'>
-    <p>Click below to sign out</p>
-    <button onclick= " hideMashup(), pega.web.api.doAction('PegaGadget', 'logoff')" >Log off</button>
+    <button onclick="pega.web.api.doAction('signIn', 'logoff'), hideMashup(), window.location.reload()">Log off</button>
     <!--This is the Pega API call to logoff a session-->
   </div>
 </body>
 
 </html>
+
+<!-- pega.web.api.doAction('register', 'logoff'),  -->
