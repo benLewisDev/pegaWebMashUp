@@ -10,24 +10,23 @@
   <script src='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script>
   <!-- <script src ='https://lsj2um9z.pegace.net/prweb?pzuiactionzzz=CXtpbn1jMitsM3M2SGg5NGV5bWVrU3VvSlNrSWxmV0FUL1BnS2hYSnBtK2N6d3B3RDR1L0hneUVpajRNYkx2WSs1aVFl*'></script> -->
 
+
   <title>Pega Web Mash Up</title>
-</head>
-
-<body>
-  <script>
-    function showMashup1() {
-      document.getElementById("signIn").style.display = "block";
-    }
-    function showMashup2() {
-      document.getElementById("register").style.display = "block";
-    }
-    function hideMashup() {
-      for (let element of document.getElementsByClassName("mashUp")){
-   element.style.display="none";
-    }
-    }
+  </head>
+  <body>
+    <script>
+      function showMashup1() {
+        document.getElementById("signIn").style.display = "block";
+      }
+      function showMashup2() {
+        document.getElementById("register").style.display = "block";
+      }
+      function hideMashup() {
+        for (let element of document.getElementsByClassName("mashUp")) {
+          element.style.display = "none";
+        }
+      }
     </script>
-
   <h1>Pega Web Mash Up Test</h1>
   <div id="mainButtons">
 <button onclick="showMashup1()">Sign In</button>
@@ -56,6 +55,7 @@
   <!-- ********************** End Sign In Mash Up ********************** -->
 
   <!-- ********************** Begin Register Mash Up ********************** -->
+
   <div class = "mashUp" id="register" style="display: none;"
   data-pega-encrypted='true'
   data-pega-encrypted-hash='pzuiactionzzz=CXtpbn1qNWN2MHRBRFArcEt5dldFM1VFUythU3Fqb212UHd6MWZiUk5MSExhbG9sTkdPVFVvdUg2d1V3ckcyNnRKckJ6clJxVFh3cXlkV1VzU1dTeS91MnNlM0tnNnllUWpGc0s4WThjdnlRZm1KdGtTZ05QWWpYNy82cUI5aytoUU50UGxDaGV2Z2t1ZXRhc2cyTmVudENrMW9BUjE4Q2MweEVReGJ5cUs4VERzNlVyS1RIN01EeEpjdUREZkpGMGVtVXVaNWZxSnQ4V3FNNk8weWR1UlNEbXRQeUc4M0xNRkxicmpIeS9IKzhQaGdWLzBwM2Vlem9KOG01bGhuSFFGTC9OamJvQUd5OTV5UUFjc0FUYWVUTE5RMmR4U0Q4THVJSmthWW9nV3BBcjY0MzNEbk91Y0UxWFd5dnNWL0ZnazFxOUZ2a0dhaXRhZjZmV2sxTStaODZGdFN1ZnVDdnlZejRMMXc5TERCamZxalE9*'
@@ -83,13 +83,9 @@
    </script>
 
   <div id='logOff'>
-    <button onclick="pega.web.api.doAction('signIn', 'logoff'), hideMashup()">Log off</button>
+    <button onclick="pega.web.api.doAction('signIn', 'logoff'), hideMashup()"">Log off</button>
     <!--This is the Pega API call to logoff a session-->
   </div>
 </body>
 
 </html>
-
-<!-- pega.web.api.doAction('register', 'logoff'),  -->
-
-html = <!-- write comment hear-->

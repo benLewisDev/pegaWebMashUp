@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
     background-image: url("/images/banner.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -18,10 +17,9 @@ body, html {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-    
   }
 
-  #mashUp {
+  .mashUp {
     overflow: auto;
     margin-left: 15%;
     margin-right: 15%;
