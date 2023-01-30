@@ -1163,16 +1163,20 @@ input:focus{
 }
 .circle-data {
     animation: rotate 35s linear infinite;
-    /* width: 380px; */
-    /* height: 380px; */
-    position: absolute;
+    /*width: 380px;
+    *//*height: 380px;
+    */position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     margin: auto 0;
-    /* background: red; */
-    right: 0;
+    /*background: red;
+    */right: 0;
     border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 /*.circle-img{
     animation: rotate 35s reverse linear infinite;
@@ -1200,14 +1204,16 @@ input:focus{
     margin:0;
 }
 
-.mashUpSection {
-    display: flex;
-    flex-direction: column;
-}
-
 #mashButtons {
     margin: 10px;
     display: flex;
     justify-content: end;
     gap: 15px;
 }
+
+#register {
+    border: dotted;
+    border-color: #afaaa2;
+    border-width: 1px;
+}
+
